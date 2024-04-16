@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    max-width: 100%;
+    height: 100vh;
+    background-color: #A99382;
+    grid-column: 2;
+    padding: 5%;
+}
+.box{
+    background-color: #F0E9DB; 
+    border-radius: 20px;
+    height: 100%;
+}
+.nav{
+    padding-top: 2rem;
+    background-color: #AA6C3C;
+    border-radius: 20px;
+    width: 15%;
+    height: 100%;
+
+}
+ul{
+    list-style: none;
+}
+.logo{
+    display: flex;
+    color: white;
+    font-size: .8rem;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.logo h1{
+    margin-top: 1rem;
+}
+.logo img{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+}
+li{
+    text-align: center;
+    background-color: #50281A;
+    padding: 10%;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    height: 5rem;
+    border:1px solid black;
+    margin: 2%;
+    border-radius: 10px;
+   
+}
+.logout{
+    background-color: #50281A;
+}
+
+
+@media screen and (max-width: 600px) {
+   .nav{
+    width: 150px;
+   } 
+   .logo{
+    display: block;
+   }
+   .logo h1{
+    margin-top: .1rem;
+        font-size: 1rem;
+   }
+}
